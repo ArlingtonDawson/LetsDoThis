@@ -90,7 +90,7 @@
     <Compile Include="Assets\Scripts\UI\PlayFabAuthService.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\CanvasInputs\UICanvasControllerInput.cs" />
     <Compile Include="Assets\Scripts\Networking\ClientGameNetPortal.cs" />
-    <Compile Include="Assets\Scripts\Systems\ScriptableObjects\Resource.cs" />
+    <Compile Include="Assets\Scripts\ScriptableObjects\Resource.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\Utilities\MobileDisableAutoSwitchControls.cs" />
     <Compile Include="Assets\Scripts\Systems\Planet\WorldEntity.cs" />
     <Compile Include="Assets\Scripts\Networking\ConnectStatus.cs" />
@@ -105,6 +105,8 @@
     <Compile Include="Assets\Scripts\Managers\KnownWorlds.cs" />
     <Compile Include="Assets\Scripts\Networking\ServerGameNetPortal.cs" />
     <Compile Include="Assets\Scripts\Systems\Planet\Player.cs" />
+    <Compile Include="Assets\Scripts\ScriptableObjects\ResearchItem.cs" />
+    <Compile Include="Assets\Scripts\ScriptableObjects\RequiredResource.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -933,10 +935,6 @@
     <ProjectReference Include="PlayFabSDKEditor.csproj">
       <Project>{EEC2D19D-B352-1B12-5D38-49A4FCCE04FC}</Project>
       <Name>PlayFabSDKEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PlayFabEditorExtensions.csproj">
-      <Project>{42B91D2D-D82A-C20C-634B-8F70AA7EEF4F}</Project>
-      <Name>PlayFabEditorExtensions</Name>
     </ProjectReference>
     <ProjectReference Include="PlayFab.csproj">
       <Project>{E45E48F1-4680-1BCA-ACBB-A3280B8E26F1}</Project>

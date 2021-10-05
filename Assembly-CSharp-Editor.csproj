@@ -929,10 +929,6 @@
       <Project>{EEC2D19D-B352-1B12-5D38-49A4FCCE04FC}</Project>
       <Name>PlayFabSDKEditor</Name>
     </ProjectReference>
-    <ProjectReference Include="PlayFabEditorExtensions.csproj">
-      <Project>{42B91D2D-D82A-C20C-634B-8F70AA7EEF4F}</Project>
-      <Name>PlayFabEditorExtensions</Name>
-    </ProjectReference>
     <ProjectReference Include="PlayFab.csproj">
       <Project>{E45E48F1-4680-1BCA-ACBB-A3280B8E26F1}</Project>
       <Name>PlayFab</Name>
